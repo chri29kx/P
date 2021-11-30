@@ -1,0 +1,85 @@
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+* {
+  margin: auto;
+  padding: 0%;
+  max-width: 1200px;
+}
+
+#first_section {
+  background-image: url(bth/artwall.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  background-position: 50% 45%;
+}
+
+.overskrift {
+  font-family: "Abhaya Libre", serif;
+  font-size: 6rem;
+  color: #ecd9b0;
+}
+
+.KH {
+  font-family: "Abhaya Libre", serif;
+  font-size: 3rem;
+  color: #ecd9b0;
+}
+
+.splash {
+  position: relative;
+}
+
+a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 15%;
+}
+
+body {
+  background-color: #ecd9b0;
+  margin: 50px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  position: sticky;
+
+  margin-top: 50px;
+}
+
+/* @media (max-width: 650px) {
+  .kunstner {
+    width: 500px;
+    height: 500px;
+  }
+} */
+
+#third_section .section_wrapper {
+  display: grid;
+  gap: 20px;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+p,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.artwall {
+  grid-column: 1/3;
+}
